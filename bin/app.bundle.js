@@ -46,28 +46,36 @@
 
 	__webpack_require__(1);
 	__webpack_require__(2);
-	module.exports = __webpack_require__(3);
+	__webpack_require__(3);
+	module.exports = __webpack_require__(4);
 
 
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
 
-	console.log('index')
+	console.log('comp')
 
 
 /***/ },
 /* 2 */
 /***/ function(module, exports) {
 
-	console.log('comp')
+	console.log('comp2')
 
 
 /***/ },
 /* 3 */
 /***/ function(module, exports) {
 
-	console.log('comp2')
+	console.log('_index')
+
+
+/***/ },
+/* 4 */
+/***/ function(module, exports) {
+
+	console.log('module')
 
 
 /***/ }
